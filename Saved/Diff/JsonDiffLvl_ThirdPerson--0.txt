@@ -1,0 +1,926 @@
+{
+	"__RootObjects": [
+		{
+			"__UObject": {
+				"Name": "Lvl_ThirdPerson",
+				"Class": "uobject:/Script/Engine.World",
+				"Flags": 11
+			},
+			"__SerialData": [
+				false,
+				{
+					"__UObject": {
+						"Name": "PersistentLevel",
+						"Class": "uobject:/Script/Engine.Level",
+						"Flags": 8
+					},
+					"__SerialData": [
+						false,
+						"YQAAAA==",
+						{
+							"__UObject": {
+								"Name": "WorldSettings",
+								"Class": "uobject:/Script/Engine.WorldSettings",
+								"Flags": 8
+							},
+							"bForceNoPrecomputedLighting": true,
+							"bIncludeGridSizeInNameForFoliageActors": true,
+							"bIncludeGridSizeInNameForPartitionedActors": true,
+							"NavigationSystemConfig": {
+								"__UObject": {
+									"Name": "NavigationSystemModuleConfig_0",
+									"Class": "uobject:/Script/NavigationSystem.NavigationSystemModuleConfig",
+									"Flags": 0
+								},
+								"bAutoSpawnMissingNavData": true,
+								"NavigationSystemClass": {
+									"AssetPath": {
+										"PackageName": "/Script/NavigationSystem",
+										"AssetName": "NavigationSystemV1"
+									}
+								}
+							},
+							"WorldPartition": {
+								"__UObject": {
+									"Name": "WorldPartition_0",
+									"Class": "uobject:/Script/Engine.WorldPartition",
+									"Flags": 8
+								},
+								"__SerialData": [
+									false,
+									false
+								],
+								"EditorHash": {
+									"__UObject": {
+										"Name": "WorldPartitionEditorSpatialHash_0",
+										"Class": "uobject:/Script/Engine.WorldPartitionEditorSpatialHash",
+										"Flags": 0
+									}
+								},
+								"RuntimeHash": {
+									"__UObject": {
+										"Name": "WorldPartitionRuntimeHashSet_0",
+										"Class": "uobject:/Script/Engine.WorldPartitionRuntimeHashSet",
+										"Flags": 8
+									},
+									"RuntimePartitions": [
+										{
+											"Name": "MainPartition",
+											"Class": "uobject:/Script/Engine.RuntimePartitionLHGrid",
+											"MainLayer": {
+												"__UObject": {
+													"Name": "RuntimePartitionLHGrid_4",
+													"Class": "uobject:/Script/Engine.RuntimePartitionLHGrid",
+													"Flags": 0
+												},
+												"CellSize": 12800,
+												"bIs2D": true,
+												"Name": "MainPartition",
+												"DebugColor": {
+													"R": 0.196696,
+													"G": 0.7805,
+													"B": 0.933957
+												}
+											},
+											"HLODSetups": []
+										}
+									]
+								},
+								"bEnableStreaming": false
+							},
+							"DefaultGameMode": "uobject:/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C",
+							"BookmarkArray": [
+								"uobject:None",
+								{
+									"__UObject": {
+										"Name": "BookMark_0",
+										"Class": "uobject:/Script/Engine.BookMark",
+										"Flags": 8
+									},
+									"Location": {
+										"X": 1053.9494365252935,
+										"Y": -34.165972602864606,
+										"Z": 691.39802023510254
+									},
+									"Rotation": {
+										"Pitch": -7.8250002264976501,
+										"Yaw": 177.75000268220901
+									}
+								},
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None"
+							],
+							"ActorGuid": {
+								"A": 957086330,
+								"B": 1230299895,
+								"C": -524891249,
+								"D": -2084428469
+							},
+							"ActorLabel": "WorldSettings"
+						},
+						{
+							"__UObject": {
+								"Name": "Brush_0",
+								"Class": "uobject:/Script/Engine.Brush",
+								"Flags": 8
+							},
+							"bNotForClientOrServer": true,
+							"Brush": "uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.Brush",
+							"BrushComponent": {
+								"__UObject": {
+									"Name": "BrushComponent0",
+									"Class": "uobject:/Script/Engine.BrushComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"Brush": "uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.Brush",
+								"bSelectable": false,
+								"RelativeLocation": {
+									"X": -964.37926441193349,
+									"Y": 9.9568092005684168,
+									"Z": 99.99989967084889
+								}
+							},
+							"BrushBuilder": {
+								"__UObject": {
+									"Name": "CubeBuilder_0",
+									"Class": "uobject:/Script/UnrealEd.CubeBuilder",
+									"Flags": 0
+								},
+								"Vertices": [
+									{
+										"X": -100,
+										"Y": -100,
+										"Z": -100
+									},
+									{
+										"X": -100,
+										"Y": -100,
+										"Z": 100
+									},
+									{
+										"X": -100,
+										"Y": 100,
+										"Z": -100
+									},
+									{
+										"X": -100,
+										"Y": 100,
+										"Z": 100
+									},
+									{
+										"X": 100,
+										"Y": -100,
+										"Z": -100
+									},
+									{
+										"X": 100,
+										"Y": -100,
+										"Z": 100
+									},
+									{
+										"X": 100,
+										"Y": 100,
+										"Z": -100
+									},
+									{
+										"X": 100,
+										"Y": 100,
+										"Z": 100
+									}
+								],
+								"Polys": [
+									{
+										"VertexIndices": [
+											0,
+											1,
+											3,
+											2 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											2,
+											3,
+											7,
+											6 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											6,
+											7,
+											5,
+											4 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											4,
+											5,
+											1,
+											0 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											3,
+											1,
+											5,
+											7 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											0,
+											2,
+											6,
+											4 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									}
+								],
+								"Layer": "Cube"
+							},
+							"bInManipulation": true,
+							"bHidden": false,
+							"bActorEnableCollision": false,
+							"SpawnCollisionHandlingMethod": "AlwaysSpawn",
+							"RootComponent": "uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.Brush_0.BrushComponent0",
+							"ActorGuid": {
+								"A": -1839476598,
+								"B": 1309540394,
+								"C": -1480616563,
+								"D": -1342569144
+							},
+							"ActorLabel": "Brush0"
+						},
+						{
+							"__UObject": {
+								"Name": "WorldDataLayers",
+								"Class": "uobject:/Script/Engine.WorldDataLayers",
+								"Flags": 8
+							},
+							"ActorGuid": {
+								"A": -1096180482,
+								"B": 1154865486,
+								"C": 501151665,
+								"D": 1600512621
+							},
+							"ActorLabel": "WorldDataLayers"
+						},
+						"uobject:None",
+						"uobject:None",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961941707",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_A8A159EC6A22389002_1171467447",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_SpawnArea_C_UAID_A8A159EC6A22339002_1613880562",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961938703",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961937702",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961939704",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_RectTL_C_UAID_A8A159EC6A22069202_1788701743",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961929694",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_A8A159EC6A22389002_1244502449",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961928692",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961947714",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_RedBall_C_UAID_A8A159EC6A22739002_1140996803",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_A8A159EC6A22009202_1968875671",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_A8A159EC6A22389002_1267355450",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961896680",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961964736",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Switch_C_UAID_A8A159EC6A22039202_1260320202",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_LeftRight_C_UAID_A8A159EC6A22059202_1835836562",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_LeftRight_C_UAID_A8A159EC6A22069202_1752748741",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_LeftRightTL_C_UAID_A8A159EC6A22109202_1742762506",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_LeftRightTL_C_UAID_A8A159EC6A22109202_1754950507",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Rect_C_UAID_A8A159EC6A22279002_1774382433",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Rect_C_UAID_A8A159EC6A22069202_1774526742",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_RectTL_C_UAID_A8A159EC6A226F9002_1774362095",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_SplineMove_C_UAID_A8A159EC6A22749002_2086137980",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_SplineMove_C_UAID_A8A159EC6A22069202_1802283744",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Timer_C_UAID_A8A159EC6A22799002_2068580861",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Timer_C_UAID_A8A159EC6A22069202_1824420745",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.VolumetricCloud_UAID_F4A475FF15A3736A02_1961900685",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961937701",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961899684",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961949717",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961952720",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961923687",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_A8A159EC6A22DF8F02_1559439751",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961892675",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_A8A159EC6A222E9002_1107570670",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961948715",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.PlayerStart_UAID_A8A159EC6A221D9002_1261732669",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961945711",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961929693",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961952721",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961956726",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961935699",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961957728",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961891674",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961949716",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.PlayerStart_UAID_A8A159EC6A221D9002_1263667670",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961954723",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961931696",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961924688",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961950718",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961930695",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961898682",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961951719",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.DirectionalLight_UAID_F4A475FF15A3736A02_1961932697",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961953722",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961934698",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.ChaosDebugDrawActor_UAID_F4A475FF15A3736A02_1961891673",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961926690",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961922686",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.WorldPartitionMiniMap_UAID_F4A475FF15A3736A02_1958925671",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_CountBox_C_UAID_A8A159EC6A22FE9102_1711151319",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961962732",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961942708",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961925689",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961897681",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_SwitchSA_C_UAID_A8A159EC6A22339002_2013120563",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961962733",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961957727",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961955724",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961940705",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961946713",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961963734",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Cannon_C_UAID_A8A159EC6A22509202_1321318751",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961894677",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.SkyAtmosphere_UAID_F4A475FF15A3736A02_1961927691",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.PlayerStart_UAID_F4A475FF15A3736A02_1961960731",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961893676",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_A8A159EC6A222C9002_1490251315",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961944710",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961946712",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.SkyLight_UAID_F4A475FF15A3736A02_1961943709",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.Floor_UAID_F4A475FF15A3736A02_1961940706",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961899683",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961955725",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_A8A159EC6A22519202_2028659929",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.ExponentialHeightFog_UAID_F4A475FF15A3736A02_1961936700",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961958729",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_A8A159EC6A22389002_1238069448",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_F4A475FF15A3736A02_1961959730",
+						"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.PostProcessVolume_UAID_F4A475FF15A3736A02_1961895679",
+						"BwAAAA==",
+						"dW5yZWFsAA==",
+						"AAAAAA==",
+						"IQAAAA==",
+						"L0dhbWUvVGhpcmRQZXJzb24vVGhpcmRQZXJzb25NYXAA",
+						"AAAAAA==",
+						"AAAAAA==",
+						"YR4AAA==",
+						"AQAAAA==",
+						{
+							"__UObject": {
+								"Name": "Model_0",
+								"Class": "uobject:/Script/Engine.Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.Polys_0",
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								false,
+								"AAAAAA==",
+								"AAAAAA==",
+								"2cp9+g==",
+								"O1wxBg==",
+								"buA/pQ==",
+								"JeMClQ==",
+								"AQAAAA==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw=="
+							]
+						},
+						"AAAAAA==",
+						"uobject:None",
+						"uobject:None",
+						"uobject:None",
+						"uobject:None",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA=="
+					],
+					"bUseExternalActors": true,
+					"Model": "uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.Model_0",
+					"LevelBuildDataId": {
+						"A": -1471498932,
+						"B": 1117618438,
+						"C": 1938099894,
+						"D": -1658714238
+					},
+					"bIsPartitioned": true,
+					"WorldSettings": "uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.WorldSettings",
+					"WorldDataLayers": "uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.WorldDataLayers",
+					"bUseActorFolders": true,
+					"__IndirectlyReferenced": [
+						{
+							"__UObject": {
+								"Name": "Brush",
+								"Class": "uobject:/Script/Engine.Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAWUA=",
+								"AAAAAAAAWUA=",
+								"AAAAAAAAWUA=",
+								"5fuEBZCmZUA=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"uobject:/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.Polys_1",
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								true,
+								"CAAAAA==",
+								"AAAAAA==",
+								"F4EOAQ==",
+								"6kc8Tg==",
+								"Gs8iJw==",
+								"uecSXQ==",
+								"AAAAAA=="
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "Polys_0",
+								"Class": "uobject:/Script/Engine.Polys",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AAAAAA=="
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "Polys_1",
+								"Class": "uobject:/Script/Engine.Polys",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"BgAAAA==",
+								"AADIwg==",
+								"AADIwg==",
+								"AADIwg==",
+								"AACAvw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AADIwgAAyMIAAMjCAADIwgAAyMIAAMhCAADIwgAAyEIAAMhCAADIwgAAyEIAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AADIwg==",
+								"AADIQg==",
+								"AADIwg==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAgA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AADIwgAAyEIAAMjCAADIwgAAyEIAAMhCAADIQgAAyEIAAMhCAADIQgAAyEIAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AADIQg==",
+								"AADIQg==",
+								"AADIwg==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AADIQgAAyEIAAMjCAADIQgAAyEIAAMhCAADIQgAAyMIAAMhCAADIQgAAyMIAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AADIQg==",
+								"AADIwg==",
+								"AADIwg==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAgA==",
+								"AAAAgA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AADIQgAAyMIAAMjCAADIQgAAyMIAAMhCAADIwgAAyMIAAMhCAADIwgAAyMIAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AADIwg==",
+								"AADIQg==",
+								"AADIQg==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AADIwgAAyEIAAMhCAADIwgAAyMIAAMhCAADIQgAAyMIAAMhCAADIQgAAyEIAAMhC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AADIwg==",
+								"AADIwg==",
+								"AADIwg==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AADIwgAAyMIAAMjCAADIwgAAyEIAAMjCAADIQgAAyEIAAMjCAADIQgAAyMIAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None"
+							]
+						}
+					]
+				},
+				"AAAAAA==",
+				"AAAAAA=="
+			],
+			"ThumbnailInfo": {
+				"__UObject": {
+					"Name": "WorldThumbnailInfo_0",
+					"Class": "uobject:/Script/UnrealEd.WorldThumbnailInfo",
+					"Flags": 8
+				}
+			},
+			"EditorViews": [
+				{
+					"CamPosition": {
+						"X": 1053.949437,
+						"Y": -34.165973000000001,
+						"Z": 691.39801999999997
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 25.000841610997782,
+						"Y": 17.096622749617296,
+						"Z": 464.19925608996527
+					},
+					"CamRotation": {
+						"Pitch": -22.57500050961972,
+						"Yaw": -171.95606937692327,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 1053.949437,
+						"Y": -34.165973000000001,
+						"Z": 691.39801999999997
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 1053.949437,
+						"Y": -34.165973000000001,
+						"Z": 691.39801999999997
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				}
+			],
+			"ContentBundleManager": {
+				"__UObject": {
+					"Name": "ContentBundleManager_0",
+					"Class": "uobject:/Script/Engine.ContentBundleManager",
+					"Flags": 0
+				},
+				"PIEDuplicateHelper": {
+					"__UObject": {
+						"Name": "ContentBundleDuplicateForPIEHelper_0",
+						"Class": "uobject:/Script/Engine.ContentBundleDuplicateForPIEHelper",
+						"Flags": 0
+					}
+				}
+			}
+		}
+	],
+	"__PackageSummary": {
+		"__CustomVersions": [
+			{
+				"Key": "697DD581E64F41ABAA4A51ECBEB7B628",
+				"Version": 121
+			},
+			{
+				"Key": "59DA5D5212324948B878597870B8E98B",
+				"Version": 9
+			},
+			{
+				"Key": "D89B5E4224BD4D468412ACA8DF641779",
+				"Version": 56
+			},
+			{
+				"Key": "601D1886AC644F84AA16D3DE0DEAC7D6",
+				"Version": 207
+			},
+			{
+				"Key": "9C54D522A8264FBE9421074661B482D0",
+				"Version": 44
+			},
+			{
+				"Key": "9DFFBCD6494F0158E22112823C92A888",
+				"Version": 11
+			},
+			{
+				"Key": "1ED048F42F2E4C6889D053A4F18F102D",
+				"Version": 1
+			},
+			{
+				"Key": "CFFC743F43B04480939114DF171D2073",
+				"Version": 37
+			},
+			{
+				"Key": "E70863686B234C5884391B7016265E91",
+				"Version": 17
+			},
+			{
+				"Key": "12F88B9F88754AFCA67CD90C383ABD29",
+				"Version": 49
+			},
+			{
+				"Key": "29E575DDE0A346279D10D276232CDCEA",
+				"Version": 17
+			}
+		]
+	}
+}
